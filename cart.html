@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Assignment: 4.5 Guided Practice: Storing Locally
+        Author: Rodrigue Sifor OUAMBO V MBOLIYOU (OU26049981)
+        Date: November 24, 2026
+        Purpose: Cart page for Molten Dreams Glassworks. It reads the cart and the
+                 reservation end time from localStorage and lists the reserved items.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+   
+    <!-- STEP 2 -->
+    <link rel="stylesheet" href="GP_Storing-Locally_StarterFile.css">
+    <script src="cart.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Molten Dreams Glassworks</h1>
+            <a class="cart-area" href="index.html">Continue Shopping</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="timer-section">
+            <h2>Reserved Items</h2>
+            <p id="countdown">15:00</p>
+        </section>
+    
+        <section class="cart-panel">
+            <h2>Your Cart</h2>
+            <section id="cart-items"></section>
+            <h3 id="cart-total">Total: $0</h3>
+        </section>
+    </main>
+</body>
+</html>
